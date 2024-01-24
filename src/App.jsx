@@ -1,8 +1,4 @@
 import { useState , useEffect, } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-
-
 function App() {
     const TIME_IN_SECONDS = 150; //change to 1500 for 25 mins
     const [time, setTime] = useState(TIME_IN_SECONDS);
